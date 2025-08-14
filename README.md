@@ -25,15 +25,6 @@ Include a link or screenshot here if you have a live demo or GIF.
 3. On scroll, the script calculates the current scroll fraction and displays the corresponding frame using `canvas.drawImage()` :contentReference[oaicite:1]{index=1}.
 4. Rendering is done efficiently using `requestAnimationFrame()` to avoid jank.
 
-## File Structure
-
-web-airpod-modern-animation/
-│
-├── index.html ← Main page with canvas element
-├── style.css ← Styles for positioning & layout
-├── script.js ← JS logic: preload + animate frames
-└── images/ ← Frame images for animation
-
 ## Getting Started
 
 1. Clone the repo:
